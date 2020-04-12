@@ -1,0 +1,43 @@
+@import '../system-constants.scss';
+
+.footer-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: $system-green-dark;
+    min-height: 10rem;
+    padding: 2rem 2rem 2rem;
+    border-bottom: solid 1px $system-green-primary;
+}
+
+.left-side {
+    border-right: solid 1px $system-green-primary;
+    color: #eee;
+    flex-grow: 1;
+    max-width: 50%;
+    hr {
+        background-color: $system-green-primary;
+        margin-right: 90%;
+    }
+    p {
+        padding-right: 2rem;
+    }
+}
+
+.right-side {
+    flex-grow: 1;
+}   
+
+.social-links a img {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.bottom {
+    display: flex;
+    justify-content: space-between;
+    background-color: $system-green-dark;
+    color: $system-green-primary;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 1rem;
+}
