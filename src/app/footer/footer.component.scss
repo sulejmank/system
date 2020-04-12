@@ -1,12 +1,16 @@
 @import '../system-constants.scss';
 
+:host {
+    background-color: $system-green-dark;
+}
+
 .footer-wrapper {
     display: flex;
     justify-content: space-evenly;
     background-color: $system-green-dark;
     min-height: 10rem;
     padding: 2rem 2rem 2rem;
-    border-bottom: solid 1px $system-green-primary;
+    // border-bottom: solid 1px $system-green-primary;
 }
 
 .left-side {
@@ -31,6 +35,7 @@
     width: 1.5rem;
     height: 1.5rem;
 }
+
 
 .bottom {
     display: flex;

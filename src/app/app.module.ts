@@ -7,13 +7,15 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { HomeComponent } from './home/home.component';
 import { NgbCarouselModule } from '@ng-bootstrap/ng-bootstrap';
+import { OnlineComponent } from './online/online.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     FooterComponent,
-    HomeComponent
+    HomeComponent,
+    OnlineComponent
   ],
   imports: [
     BrowserModule,

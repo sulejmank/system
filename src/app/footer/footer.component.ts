@@ -13,8 +13,6 @@ export class FooterComponent implements OnInit {
   }
 
   get year() {
-    let date = new Date().getFullYear();
-
-    return date;
+    return new Date().getFullYear();
   }
 }
