@@ -6,10 +6,13 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./home.component.scss']
 })
 export class HomeComponent implements OnInit {
+  images: Array<string> = 
+  [
+    'assets/img/slide-1.jpg',
+    'assets/img/slide-2.jpg'
+  ];
 
   constructor() { }
 
-  ngOnInit(): void {
-  }
-
+  ngOnInit(): void { }
 }

@@ -1,4 +1,4 @@
-@import '../system-constants.scss';
+@import "../system-constants.scss";
 
 .nested-dropdown {
     background-color: $system-green-primary !important;
@@ -141,7 +141,7 @@
 .nav-menu .drop-down li {
     min-width: 180px;
     position: relative;
-    border: solid 1px $system-grey;
+    border-bottom: solid 1px $system-grey;
 }
 
 .nav-menu .drop-down ul a {
@@ -154,7 +154,7 @@
 .nav-menu .drop-down ul a:hover,
 .nav-menu .drop-down ul .active > a,
 .nav-menu .drop-down ul li:hover > a {
-     color: $system-green-dark;
+    color: $system-green-dark;
 }
 
 .nav-menu .drop-down > a:after {
