@@ -75,11 +75,13 @@
 .main-text {
   margin-top: 2rem;
   font-size: 1.5rem;
+  text-align: justify;
 }
  
 .numbers {
   display: flex;
   justify-content: space-evenly;
+  margin-bottom: 3rem;
   div {
     text-align: center;
     h1 {
@@ -87,6 +89,7 @@
     }
   }
 }
+
 
 
 .clients {

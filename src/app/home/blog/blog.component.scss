@@ -1,0 +1,47 @@
+@import "../../system-constants.scss";
+
+:host {
+    .blog-wrapper {
+        display: flex;
+        margin-left: 5rem;
+        margin-right: 5rem;
+    }
+    h5 {
+        font-weight: bold;
+        span {
+            color: $system-grey;
+            font-size: 1rem;
+            font-weight: bold;
+        }
+    }
+
+    .main-item {
+        width: 60%;
+        height: 60rem;
+        flex-grow: 1;
+        .main-image {
+            object-fit: cover;
+            max-height: 20rem;
+            width: 55rem;
+        }
+        h1 {
+            padding-top: 2rem;
+        }
+      
+        p {
+            max-width: 55rem;
+            text-align: justify;
+        }
+    }
+
+    .blog-items {
+        width: 40%;
+        table {
+            width: 100%;
+        }
+        .item-image {
+            width: 10rem;
+            height: 10rem;
+        }
+    }
+}

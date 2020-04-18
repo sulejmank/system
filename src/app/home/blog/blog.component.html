@@ -1,0 +1,39 @@
+<div class="blog-wrapper">
+    <div class="main-item">
+        <!-- <div>BLOG I VESTI</div> -->
+        <img [src]="selectedItem.image" class="main-image" alt="">
+        <h1>{{selectedItem.title}}</h1>
+        <h5>{{selectedItem.creator}} - <span>{{selectedItem.date}}</span></h5>
+
+        <p>Poštovani, shodno donetoj odluci o proglašavanju vanrednog stanja koja se odnosi i na obrazovne institucije,
+            želimo da vas obavestimo da će naša škola jezika System nastaviti sa radom i odrzavanjem isključivo online
+            nastave i to pre svega iz razloga zdravstvene i društvene odgovornosti, a sve u cilju očuvanja najveće
+            vrednosti- zdravlja, kako svih vas, naših polaznika, tako i naših zaposlenih i prevencije daljeg širenja
+            virusa COVID-19
+
+            Do tada vas molimo, da u ovim teškim trenucima svi zajedno apsolutno poštujemo dobijene preporuke o
+            društveno odgovornom ponašanju i što je više moguće ostanemo u svojim domovima, kako bismo što pre uspeli da
+            prebrodimo ovako ozbiljan zdravstveni izazov koji nam svima predstoji, uz maksimalnu solidarnost i podršku
+            najugroženijim grupama stanovništva.
+            Ostanimo u svojim domovima, ispunimo vreme izolacije kvalitetnim sadržajem, kreativnim hobijima, čitanjem
+            svih onih knjiga koje nas odavno čekaju na policama, društvenim igrama u krugu porodice, korisnim saznanjima
+            i učenjem koje ce nas unaprediti a i skratiti vreme koje moramo provesti u domu, a koje će nas učiniti
+            herojima!
+        </p>
+    </div>
+
+    <div class="blog-items">
+        <table>
+            <tr *ngFor="let item of blogItems">
+                <td>
+                    <img [src]="item.image" class="item-image" alt="">
+                </td>
+                <td align="center">
+                    <h1>{{item.title}}</h1>
+                    <h5>{{item.creator}} - <span>{{item.date}}</span></h5>
+                    <hr>
+                </td>
+            </tr>
+        </table>
+    </div>
+</div>
