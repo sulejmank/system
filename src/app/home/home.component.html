@@ -1,98 +1,101 @@
-<ngb-carousel *ngIf="images">
-  <ng-template ngbSlide>
-    <div class="picsum-img-wrapper">
-      <img [src]="images[0]" alt="Random first slide">
-    </div>
-    <div class="carousel-caption">
-      <h3>First slide label</h3>
-      <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-    </div>
-  </ng-template>
-  <ng-template ngbSlide>
-    <div class="picsum-img-wrapper">
-      <img [src]="images[1]" alt="Random second slide">
-    </div>
-    <div class="carousel-caption">
-      <h3>Second slide label</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-    </div>
-  </ng-template>
-</ngb-carousel>
+  <ngb-carousel *ngIf="images">
+    <ng-template ngbSlide>
+      <div class="picsum-img-wrapper">
+        <img [src]="images[0]" alt="Random first slide">
+      </div>
+      <div class="carousel-caption">
+        <h3>First slide label</h3>
+        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+      </div>
+    </ng-template>
+    <ng-template ngbSlide>
+      <div class="picsum-img-wrapper">
+        <img [src]="images[1]" alt="Random second slide">
+      </div>
+      <div class="carousel-caption">
+        <h3>Second slide label</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+    </ng-template>
+  </ngb-carousel>
 
-<div class="services-wrapper">
-  <div class="service-card">
-    <img class="image-icon" src="assets/img/ucenje-jezika-icon.png" alt="">
-    <h1>Ucenje stranih jezika</h1>
-    <p>Pružamo vrhunski kvalitet in-class i online nastave, uz tim licenciranih profesora sa dugogodišnjim iskustvom. Uz
-      završeni kurs dobijate i sertiﬁkat.</p>
+  <div class="services-wrapper">
+    <div class="service-card">
+      <img class="image-icon" src="assets/img/ucenje-jezika-icon.png" alt="">
+      <h1>Ucenje stranih jezika</h1>
+      <p>Pružamo vrhunski kvalitet in-class i online nastave, uz tim licenciranih profesora sa dugogodišnjim iskustvom.
+        Uz
+        završeni kurs dobijate i sertiﬁkat.</p>
+    </div>
+    <div class="service-card">
+      <img class="image-icon" src="assets/img/zaposljavanje-icon.png" alt="">
+      <h1>Zaposljavanje</h1>
+      <p>U saradnji sa agencijom za zapošljavanje „Schaler 2015 DOO“ možete se preko nas zaposliti u inostranstvu, gde
+        možete primeniti stečeno znanje.</p>
+    </div>
+    <div class="service-card-last ">
+      <div>
+        <img class="image-icon" src="assets/img/konsultacije-icon.png" alt="">
+        <div>USLUGE</div>
+      </div>
+      <h1>Konsalting</h1>
+      <p>Nudimo izradu biograﬁja i motivacionih pisama, pomoć u pronalasku poslova u inostranstvu i konsultacije
+        prilikom
+        odabira i apliciranja za studije</p>
+    </div>
   </div>
-  <div class="service-card">
-    <img class="image-icon" src="assets/img/zaposljavanje-icon.png" alt="">
-    <h1>Zaposljavanje</h1>
-    <p>U saradnji sa agencijom za zapošljavanje „Schaler 2015 DOO“ možete se preko nas zaposliti u inostranstvu, gde
-      možete primeniti stečeno znanje.</p>
+
+
+  <div class="main-body">
+    <div class="headline">
+      <h1>UDRUZENJE SYSTEM</h1>
+      <hr>
+    </div>
+
+    <div class="main-text">
+      <p>Udruženje "System" je osnovano 2019. godine u Novom Pazaru sa ciljem da omogući učenje stranih jezika i u
+        saradnji sa
+        agencijom za zapošljavanje „Schaler 2015 DOO“, upotrebu tog jezika u širokom spektru delatnosti. Pored
+        visokokvalitetne ponude u oblasti edukacije-podučavanja stranih jezika, konsaltinga i drugih usluga, postoji i
+        mogućnost zapošljavanja po evropskim standardima zarade i poslovanja. Nudimo Vam, da nakon završenog kursa
+        jezika,
+        obavite razgovor sa poslodavcima ili agentima agencije, i na taj način dobijete sezonski ili dugoročni posao u
+        inostranstvu, a posebno u Nemačkoj.
+      </p>
+      <p>
+        Ono što nas izdvaja jeste mogućnost praktične primene i usavršavanje stečenog znanja, sticanje iskustva u raznim
+        delatnostima i upoznavanje brojnih kultura.
+      </p>
+    </div>
   </div>
-  <div class="service-card-last ">
+
+  <hr>
+
+  <div class="numbers">
     <div>
-      <img class="image-icon" src="assets/img/konsultacije-icon.png" alt="">
-      <div>USLUGE</div>
+      <h1>33</h1>
+      <h3>BROJ POLAZNIKA</h3>
     </div>
-    <h1>Konsalting</h1>
-    <p>Nudimo izradu biograﬁja i motivacionih pisama, pomoć u pronalasku poslova u inostranstvu i konsultacije prilikom
-      odabira i apliciranja za studije</p>
+    <div>
+      <h1>114</h1>
+      <h3>ZAPOSLJENI KANDIDATI</h3>
+    </div>
+    <div>
+      <h1>13</h1>
+      <h3>NAS TIM</h3>
+    </div>
+    <div>
+      <h1>44</h1>
+      <h3>CV I MOTIVACIONA PISMA</h3>
+    </div>
   </div>
-</div>
 
 
-<div class="main-body">
-  <div class="headline">
-    <h1>UDRUZENJE SYSTEM</h1>
+  <!-- Blog -->
+  <app-blog></app-blog>
+
+  <hr>
+  <div class="clients">
+    <h1>ZADOVOLJNI KLIJENTI</h1>
     <hr>
   </div>
-
-  <div class="main-text">
-    <p>Udruženje "System" je osnovano 2019. godine u Novom Pazaru sa ciljem da omogući učenje stranih jezika i u
-      saradnji sa
-      agencijom za zapošljavanje „Schaler 2015 DOO“, upotrebu tog jezika u širokom spektru delatnosti. Pored
-      visokokvalitetne ponude u oblasti edukacije-podučavanja stranih jezika, konsaltinga i drugih usluga, postoji i
-      mogućnost zapošljavanja po evropskim standardima zarade i poslovanja. Nudimo Vam, da nakon završenog kursa jezika,
-      obavite razgovor sa poslodavcima ili agentima agencije, i na taj način dobijete sezonski ili dugoročni posao u
-      inostranstvu, a posebno u Nemačkoj.
-    </p>
-    <p>
-      Ono što nas izdvaja jeste mogućnost praktične primene i usavršavanje stečenog znanja, sticanje iskustva u raznim
-      delatnostima i upoznavanje brojnih kultura.
-    </p>
-  </div>
-</div>
-
-<hr>
-
-<div class="numbers">
-  <div>
-    <h1>33</h1>
-    <h3>BROJ POLAZNIKA</h3>
-  </div>
-  <div>
-    <h1>114</h1>
-    <h3>ZAPOSLJENI KANDIDATI</h3>
-  </div>
-  <div>
-    <h1>13</h1>
-    <h3>NAS TIM</h3>
-  </div>
-  <div>
-    <h1>44</h1>
-    <h3>CV I MOTIVACIONA PISMA</h3>
-  </div>
-</div>
-
-
-<!-- Blog -->
-<app-blog></app-blog>
-
-<hr>
-<div class="clients">
-  <h1>ZADOVOLJNI KLIJENTI</h1>
-  <hr>
-</div>

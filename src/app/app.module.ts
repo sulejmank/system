@@ -9,7 +9,6 @@ import { HomeComponent } from './home/home.component';
 import { NgbCarouselModule } from '@ng-bootstrap/ng-bootstrap';
 import { OnlineComponent } from './online/online.component';
 import { BlogComponent } from './home/blog/blog.component';
-import { BlogItemComponent } from './home/blog/blog-item/blog-item.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +18,6 @@ import { BlogItemComponent } from './home/blog/blog-item/blog-item.component';
     HomeComponent,
     OnlineComponent,
     BlogComponent,
-    BlogItemComponent
   ],
   imports: [
     BrowserModule,
